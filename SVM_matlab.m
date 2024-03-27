@@ -22,22 +22,6 @@ hold on;
 scatter(class2_x, class2_y, 'blue', 'filled', 'DisplayName', 'Class 2');
 scatter(class3_x, class3_y, 'green', 'filled', 'DisplayName', 'Class 3');
 
-% Add labels to data points
-class1_labels = arrayfun(@(n) sprintf('C1_%d', n), 1:length(class1_x), 'UniformOutput', false);
-class2_labels = arrayfun(@(n) sprintf('C2_%d', n), 1:length(class2_x), 'UniformOutput', false);
-class3_labels = arrayfun(@(n) sprintf('C3_%d', n), 1:length(class3_x), 'UniformOutput', false);
-
-text(class1_x, class1_y, class1_labels, 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-text(class2_x, class2_y, class2_labels, 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-text(class3_x, class3_y, class3_labels, 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
-
-% Define hyperplanes
-hyperplane1 = @(x) 2.5 - 0.5 * x;
-hyperplane2 = @(x) -0.5 - 0.5 * x;
-
-% Plot hyperplanes
-fplot(hyperplane1, [-2 4], 'k', 'LineWidth', 1, 'DisplayName', 'Hyperplane 1');
-fplot(hyperplane2, [-2 4], 'k--', 'LineWidth', 1.5, 'DisplayName', 'Hyperplane 2');
 
 hold off;
 xlabel('X');
@@ -45,10 +29,6 @@ ylabel('Y');
 title('Linearly Separable Dataset with Three Classes');
 legend('Location', 'best');
 grid on;
-
-class1_labels = arrayfun(@(n) sprintf('C1_%d', n), 1:length(class1_x), 'UniformOutput', false);
-class2_labels = arrayfun(@(n) sprintf('C2_%d', n), 1:length(class2_x), 'UniformOutput', false);
-class3_labels = arrayfun(@(n) sprintf('C3_%d', n), 1:length(class3_x), 'UniformOutput', false);
 
 text(class1_x, class1_y, class1_labels, 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
 text(class2_x, class2_y, class2_labels, 'VerticalAlignment', 'bottom', 'HorizontalAlignment', 'right');
