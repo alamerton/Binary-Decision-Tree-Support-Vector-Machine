@@ -1,7 +1,7 @@
 ## Metadata
-**Module**: Pattern Recognition, Neural Networks and Deep Learning (7CCSMPNN)
-**Name**: Alfie Lamerton
-**Student Number**: K23080018
+**Module**: Pattern Recognition, Neural Networks and Deep Learning (7CCSMPNN)\n
+**Name**: Alfie Lamerton\n
+**Student Number**: K23080018\n
 ## 1: First 7 Digits of Student ID
 $$\{2, 3, 0, 8, 0, 0, 1\}$$
 ## 2: Find $R_1$
