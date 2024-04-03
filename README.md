@@ -36,7 +36,7 @@ This plot shows that the dataset is linearly separable. This is shown by the dis
 
 In this image, hyperplane 1 serves the job of separating class 3 from classes 1 and 2, and hyperplane 2 serves the job of separating class 2 from classes 3 and 4. Therefore, this dataset is linearly separable because these straight hyperplanes can be used to separate the data.
 ## 5: Binary Decision Tree Block Diagram
-<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_3.png" alt="Example Image" width="550" height="500">
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_3.png" alt="Example Image" width="500" height="500">
 
 **Figure 3: Binary decision tree separating 3 classes using 2 SVMs**
 
