@@ -23,7 +23,9 @@ The remainder of $\frac{2+3+0+8+0+0+1}{4} = 2$, therefore the method for this co
 
 ## 4: Plot
 Linear separability is a property of two or more sets of data points, meaning the data clusters are spread in a way where members of each cluster don't mix at all. Two sets of data points are linearly separable if there is a linear function which classifies all of the data points with no overlap.
-![Figure 1](https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_1.png?raw=true)
+
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_1.png?raw=true" alt="Example Image" width="200" height="100">
+
 **Figure 1: Datapoints Plotted on a Scatter Graph**
 
 This plot shows that the dataset is linearly separable. This is shown by the distinct cluster each data point falls in. This dataset is linearly separable because each cluster of data points can be completely separated only using straight lines.
