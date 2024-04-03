@@ -30,13 +30,13 @@ Linear separability is a property of two or more sets of data points, meaning th
 
 This plot shows that the dataset is linearly separable. This is shown by the distinct cluster each data point falls in. This dataset is linearly separable because each cluster of data points can be completely separated only using straight lines.
 
-<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_2.png" alt="Example Image" width="500" height="500">
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_2.png" alt="Example Image" width="550" height="500">
 
 **Figure 2: Plot of Dataset with Hand-Drawn Hyperplanes**
 
 In this image, hyperplane 1 serves the job of separating class 3 from classes 1 and 2, and hyperplane 2 serves the job of separating class 2 from classes 3 and 4. Therefore, this dataset is linearly separable because these straight hyperplanes can be used to separate the data.
 ## 5: Binary Decision Tree Block Diagram
-<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_3.png" alt="Example Image" width="500" height="500">
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_3.png" alt="Example Image" width="550" height="500">
 
 **Figure 3: Binary decision tree separating 3 classes using 2 SVMs**
 
@@ -44,7 +44,7 @@ This support vector machine (SVM) has 30 inputs, corresponding to each data poin
 ## 6. Support Vectors and Hyperplane
 #### Identifying Support Vectors
 The support vectors and hyperplanes can be identified in this figure by inspection.
-<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_4.png" alt="Example Image" width="500" height="500">
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_4.png" alt="Example Image" width="550" height="500">
 
 **Figure 4: Identifying Feature Vectors**
  The support vector for Class 1 is $x_6 = \begin{pmatrix}3 \\2\end{pmatrix}$. The support vectors for Class 2 are $x_{12} = \begin{pmatrix}0.2 \\ 0.8 \end{pmatrix}$ (for separating it from Class 3), and $x_{18} = \begin{pmatrix} 1.7 \\ 1.3\end{pmatrix}$ (for separating it from Class 1). The support vector for Class 3 is $x_{22} = \begin{pmatrix} -0.7 \\ -1.3 \end{pmatrix}$.
@@ -142,7 +142,7 @@ Making $w_1=0.3448$, and $w_2=0.8045$. These values can then be substituted into
 $$\textbf{w}^T\textbf{x}+w_0=0.3448x_1+0.8045x_2+0.2874$$
 This is the equation for the hyperplane separating Class 2 from Class 3.
 
-<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_5.png" alt="Example Image" width="500" height="500">
+<img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_5.png" alt="Example Image" width="550" height="500">
 
 **Figure: Plot Showing the Data Points Being Separated by the SVMs**
 ## 7. Test Dataset
