@@ -47,7 +47,7 @@ The support vectors and hyperplanes can be identified in this figure by inspecti
 <img src="https://github.com/alamerton/Pattern-Recognition-Coursework-2/blob/master/Figure_4.png" alt="Example Image" width="550" height="500">
 
 **Figure 4: Identifying Feature Vectors**
- The support vector for Class 1 is $x_6 = \begin{pmatrix}3 \\2\end{pmatrix}$. The support vectors for Class 2 are $x_{12} = \begin{pmatrix}0.2 \\ 0.8 \end{pmatrix}$ (for separating it from Class 3), and $x_{18} = \begin{pmatrix} 1.7 \\ 1.3\end{pmatrix}$ (for separating it from Class 1). The support vector for Class 3 is $x_{22} = \begin{pmatrix} -0.7 \\ -1.3 \end{pmatrix}$.
+ The support vector for Class 1 is $x_6=\begin{pmatrix}3\\2\end{pmatrix}$. The support vectors for Class 2 are $x_{12} = \begin{pmatrix}0.2 \\ 0.8 \end{pmatrix}$ (for separating it from Class 3), and $x_{18} = \begin{pmatrix} 1.7 \\ 1.3\end{pmatrix}$ (for separating it from Class 1). The support vector for Class 3 is $x_{22} = \begin{pmatrix} -0.7 \\ -1.3 \end{pmatrix}$.
 Classes 1 and 2 can be separated with a hyperplane in the region in between $1.7 \le x \le 3 \space\text{and}\space 1.3 \le y \le 2$, and Classes 2 and 3 can be separated with a hyperplane in the region in between $-0.7 \le x \le 0.2 \space\text{and}\space -1.3 \le y \le 0.8$.
 #### Designing Hyperplanes
 ##### Calculations
@@ -60,7 +60,6 @@ The equation for calculating a hyperplane is:$$\textbf{w}^T\textbf{x}+w_0=0.$$
 The values of the vectors and their labels can be substituted into this equation:
 $$\textbf{w} =\lambda_1y_1x_1 + \lambda_2y_2x_2 =\lambda_1\begin{pmatrix}3\\2\end{pmatrix}+\lambda_2\begin{pmatrix}1.7\\1.3\end{pmatrix}$$This can then be decomposed and solved by substitution:
 $$
-
 \Biggr[
 \lambda_1\begin{pmatrix}3\\2\end{pmatrix}-\lambda_2\begin{pmatrix}1.7\\1.3\end{pmatrix}
 \Biggl]^T
